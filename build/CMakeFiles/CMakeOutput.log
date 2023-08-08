@@ -1,0 +1,1696 @@
+The system is: Linux - 6.1.21-v8+ - aarch64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/sasanka/ChargedUpCv/build/CMakeFiles/3.18.4/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/sasanka/ChargedUpCv/build/CMakeFiles/3.18.4/CompilerIdC/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1fd12/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1fd12.dir/build.make CMakeFiles/cmTC_1fd12.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -fPIE   -v -o CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/10/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o -version -fPIE -fasynchronous-unwind-tables -o /tmp/ccWbqm97.s
+GNU C++14 (Debian 10.2.1-6) version 10.2.1 20210110 (aarch64-linux-gnu)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/10"
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/10/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/10
+ /usr/include/aarch64-linux-gnu/c++/10
+ /usr/include/c++/10/backward
+ /usr/lib/gcc/aarch64-linux-gnu/10/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Debian 10.2.1-6) version 10.2.1 20210110 (aarch64-linux-gnu)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7ff9b3e77ba341f92c3fc11acba5d5f9
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWbqm97.s
+GNU assembler version 2.35.2 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+Linking CXX executable cmTC_1fd12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fd12.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1fd12 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1fd12' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVOkcXC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_1fd12 /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/10 -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/10/../../.. CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/10/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1fd12' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/10]
+    add: [/usr/include/aarch64-linux-gnu/c++/10]
+    add: [/usr/include/c++/10/backward]
+    add: [/usr/lib/gcc/aarch64-linux-gnu/10/include]
+    add: [/usr/local/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/10] ==> [/usr/include/c++/10]
+  collapse include dir [/usr/include/aarch64-linux-gnu/c++/10] ==> [/usr/include/aarch64-linux-gnu/c++/10]
+  collapse include dir [/usr/include/c++/10/backward] ==> [/usr/include/c++/10/backward]
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/10/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/10/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/10;/usr/include/aarch64-linux-gnu/c++/10;/usr/include/c++/10/backward;/usr/lib/gcc/aarch64-linux-gnu/10/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_1fd12/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1fd12.dir/build.make CMakeFiles/cmTC_1fd12.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -fPIE   -v -o CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20210110 (Debian 10.2.1-6) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/10/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o -version -fPIE -fasynchronous-unwind-tables -o /tmp/ccWbqm97.s]
+  ignore line: [GNU C++14 (Debian 10.2.1-6) version 10.2.1 20210110 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/10"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/10/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/10]
+  ignore line: [ /usr/include/aarch64-linux-gnu/c++/10]
+  ignore line: [ /usr/include/c++/10/backward]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Debian 10.2.1-6) version 10.2.1 20210110 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7ff9b3e77ba341f92c3fc11acba5d5f9]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWbqm97.s]
+  ignore line: [GNU assembler version 2.35.2 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking CXX executable cmTC_1fd12]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fd12.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1fd12 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20210110 (Debian 10.2.1-6) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1fd12' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVOkcXC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_1fd12 /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/10 -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/10/../../.. CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/10/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVOkcXC.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1fd12] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/10] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../..]
+    arg [CMakeFiles/cmTC_1fd12.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/10] ==> [/usr/lib/gcc/aarch64-linux-gnu/10]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/10;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e965b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e965b.dir/build.make CMakeFiles/cmTC_e965b.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/10/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o -version -fPIE -fasynchronous-unwind-tables -o /tmp/ccjZ69I8.s
+GNU C17 (Debian 10.2.1-6) version 10.2.1 20210110 (aarch64-linux-gnu)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/10/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/aarch64-linux-gnu/10/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 10.2.1-6) version 10.2.1 20210110 (aarch64-linux-gnu)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 09f7dee817ee0ac81dbfe2e711a5f862
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o /tmp/ccjZ69I8.s
+GNU assembler version 2.35.2 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+Linking C executable cmTC_e965b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e965b.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o -o cmTC_e965b 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e965b' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cce93YuB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_e965b /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/10 -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/10/../../.. CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/10/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e965b' '-mlittle-endian' '-mabi=lp64'
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/aarch64-linux-gnu/10/include]
+    add: [/usr/local/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/10/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/10/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/aarch64-linux-gnu/10/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_e965b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e965b.dir/build.make CMakeFiles/cmTC_e965b.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20210110 (Debian 10.2.1-6) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/10/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o -version -fPIE -fasynchronous-unwind-tables -o /tmp/ccjZ69I8.s]
+  ignore line: [GNU C17 (Debian 10.2.1-6) version 10.2.1 20210110 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/10/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 10.2.1-6) version 10.2.1 20210110 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 09f7dee817ee0ac81dbfe2e711a5f862]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o /tmp/ccjZ69I8.s]
+  ignore line: [GNU assembler version 2.35.2 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking C executable cmTC_e965b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e965b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o -o cmTC_e965b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20210110 (Debian 10.2.1-6) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e965b' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cce93YuB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_e965b /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/10 -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/10/../../.. CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/10/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cce93YuB.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e965b] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/10] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../..]
+    arg [CMakeFiles/cmTC_e965b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/10] ==> [/usr/lib/gcc/aarch64-linux-gnu/10]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/10;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3cb15/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3cb15.dir/build.make CMakeFiles/cmTC_3cb15.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3cb15.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_3cb15.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3cb15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cb15.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_3cb15.dir/CheckIncludeFile.c.o -o cmTC_3cb15 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9febb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9febb.dir/build.make CMakeFiles/cmTC_9febb.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9febb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_9febb.dir/CheckSymbolExists.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9febb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9febb.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_9febb.dir/CheckSymbolExists.c.o -o cmTC_9febb 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+File /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_16413/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16413.dir/build.make CMakeFiles/cmTC_16413.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16413.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_16413.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_16413
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16413.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_16413.dir/CheckIncludeFile.c.o -o cmTC_16413 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the memalign exist passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_913df/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_913df.dir/build.make CMakeFiles/cmTC_913df.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_913df.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_913df.dir/CheckSymbolExists.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_913df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_913df.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_913df.dir/CheckSymbolExists.c.o -o cmTC_913df 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+File /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c93a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c93a6.dir/build.make CMakeFiles/cmTC_c93a6.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c93a6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_c93a6.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c93a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c93a6.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c93a6.dir/CheckIncludeFile.c.o -o cmTC_c93a6 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_180f9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_180f9.dir/build.make CMakeFiles/cmTC_180f9.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_180f9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_180f9.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_180f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_180f9.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_180f9.dir/CheckIncludeFile.c.o -o cmTC_180f9 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fae29/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fae29.dir/build.make CMakeFiles/cmTC_fae29.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fae29.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_fae29.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fae29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fae29.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_fae29.dir/CheckIncludeFile.c.o -o cmTC_fae29 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_aa360/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa360.dir/build.make CMakeFiles/cmTC_aa360.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa360.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_aa360.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_aa360
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa360.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_aa360.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o -o cmTC_aa360 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bcd5a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bcd5a.dir/build.make CMakeFiles/cmTC_bcd5a.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bcd5a.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_bcd5a.dir/TestEndianess.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_bcd5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcd5a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_bcd5a.dir/TestEndianess.c.o -o cmTC_bcd5a 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_43066/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_43066.dir/build.make CMakeFiles/cmTC_43066.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43066.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_43066.dir/SIZEOF_SIZE_T.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_43066
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43066.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_43066.dir/SIZEOF_SIZE_T.c.o -o cmTC_43066 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ceb22/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ceb22.dir/build.make CMakeFiles/cmTC_ceb22.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ceb22.dir/SIZEOF_UNSIGNED_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_ceb22.dir/SIZEOF_UNSIGNED_LONG.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_ceb22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceb22.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_ceb22.dir/SIZEOF_UNSIGNED_LONG.c.o -o cmTC_ceb22 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZL succeeded with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0c22b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0c22b.dir/build.make CMakeFiles/cmTC_0c22b.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c22b.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough -DHAVE_BUILTIN_CTZL -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_0c22b.dir/src.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0c22b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c22b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough -DHAVE_BUILTIN_CTZL -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_0c22b.dir/src.c.o -o cmTC_0c22b 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(int argc, char **argv) { unsigned long a = argc;  return __builtin_ctzl(a); }
+Determining if files locale.h exist passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bae01/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bae01.dir/build.make CMakeFiles/cmTC_bae01.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bae01.dir/HAVE_LOCALE_H.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_bae01.dir/HAVE_LOCALE_H.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+Linking C executable cmTC_bae01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bae01.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_bae01.dir/HAVE_LOCALE_H.c.o -o cmTC_bae01 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e1920/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e1920.dir/build.make CMakeFiles/cmTC_e1920.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1920.dir/HAVE_STDLIB_H.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e1920.dir/HAVE_STDLIB_H.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_e1920
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1920.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e1920.dir/HAVE_STDLIB_H.c.o -o cmTC_e1920 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_db5b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_db5b1.dir/build.make CMakeFiles/cmTC_db5b1.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db5b1.dir/NEED_SYS_TYPES_H.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_db5b1.dir/NEED_SYS_TYPES_H.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckIncludeFiles/NEED_SYS_TYPES_H.c
+Linking C executable cmTC_db5b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db5b1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_db5b1.dir/NEED_SYS_TYPES_H.c.o -o cmTC_db5b1 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4302c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4302c.dir/build.make CMakeFiles/cmTC_4302c.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4302c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4302c.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4302c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4302c.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4302c.dir/CheckIncludeFile.c.o -o cmTC_4302c 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1a63d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1a63d.dir/build.make CMakeFiles/cmTC_1a63d.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a63d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_1a63d.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1a63d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a63d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1a63d.dir/CheckIncludeFile.c.o -o cmTC_1a63d 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_76869/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76869.dir/build.make CMakeFiles/cmTC_76869.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76869.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_76869.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_76869
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76869.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_76869.dir/CheckIncludeFile.c.o -o cmTC_76869 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6de60/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6de60.dir/build.make CMakeFiles/cmTC_6de60.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6de60.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6de60.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6de60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6de60.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6de60.dir/CheckIncludeFile.c.o -o cmTC_6de60 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b4e5a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b4e5a.dir/build.make CMakeFiles/cmTC_b4e5a.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4e5a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_b4e5a.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b4e5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4e5a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b4e5a.dir/CheckIncludeFile.c.o -o cmTC_b4e5a 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_59cbc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_59cbc.dir/build.make CMakeFiles/cmTC_59cbc.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59cbc.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_59cbc.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_59cbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59cbc.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_59cbc.dir/CheckIncludeFile.c.o -o cmTC_59cbc 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_51302/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_51302.dir/build.make CMakeFiles/cmTC_51302.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51302.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_51302.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_51302
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51302.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_51302.dir/CheckIncludeFile.c.o -o cmTC_51302 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_dc0b4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc0b4.dir/build.make CMakeFiles/cmTC_dc0b4.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc0b4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_dc0b4.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dc0b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc0b4.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_dc0b4.dir/CheckIncludeFile.c.o -o cmTC_dc0b4 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f7ef2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7ef2.dir/build.make CMakeFiles/cmTC_f7ef2.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7ef2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_f7ef2.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f7ef2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7ef2.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f7ef2.dir/CheckIncludeFile.c.o -o cmTC_f7ef2 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_432e4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_432e4.dir/build.make CMakeFiles/cmTC_432e4.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_432e4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_432e4.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_432e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_432e4.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_432e4.dir/CheckIncludeFile.c.o -o cmTC_432e4 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f9664/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9664.dir/build.make CMakeFiles/cmTC_f9664.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9664.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_f9664.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f9664
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9664.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f9664.dir/CheckIncludeFile.c.o -o cmTC_f9664 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ca77a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ca77a.dir/build.make CMakeFiles/cmTC_ca77a.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca77a.dir/src.c.o
+/usr/bin/cc -Dinline=inline  -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DC_HAS_inline -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_ca77a.dir/src.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/src.c
+/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/src.c:3:29: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    3 |         static inline foo_t static_foo() {return 0;}
+      |                             ^~~~~~~~~~
+/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/src.c:4:15: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    4 |         foo_t foo(){return 0;}
+      |               ^~~
+/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/src.c:5:22: warning: unused parameter ‘argc’ [-Wunused-parameter]
+    5 |         int main(int argc, char *argv[]) {return 0;}
+      |                  ~~~~^~~~
+/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/src.c:5:34: warning: unused parameter ‘argv’ [-Wunused-parameter]
+    5 |         int main(int argc, char *argv[]) {return 0;}
+      |                            ~~~~~~^~~~~~
+Linking C executable cmTC_ca77a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca77a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DC_HAS_inline -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_ca77a.dir/src.c.o -o cmTC_ca77a 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Determining size of signed short passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b21fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b21fc.dir/build.make CMakeFiles/cmTC_b21fc.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b21fc.dir/SIZEOF_SIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_b21fc.dir/SIZEOF_SIGNED_SHORT.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_SHORT.c
+Linking C executable cmTC_b21fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b21fc.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b21fc.dir/SIZEOF_SIGNED_SHORT.c.o -o cmTC_b21fc 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f7e7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7e7b.dir/build.make CMakeFiles/cmTC_f7e7b.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7e7b.dir/SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_f7e7b.dir/SIZEOF_UNSIGNED_SHORT.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_f7e7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7e7b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f7e7b.dir/SIZEOF_UNSIGNED_SHORT.c.o -o cmTC_f7e7b 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of signed int passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8002b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8002b.dir/build.make CMakeFiles/cmTC_8002b.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8002b.dir/SIZEOF_SIGNED_INT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_8002b.dir/SIZEOF_SIGNED_INT.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_INT.c
+Linking C executable cmTC_8002b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8002b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_8002b.dir/SIZEOF_SIGNED_INT.c.o -o cmTC_8002b 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e1580/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e1580.dir/build.make CMakeFiles/cmTC_e1580.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1580.dir/SIZEOF_UNSIGNED_INT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e1580.dir/SIZEOF_UNSIGNED_INT.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_e1580
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1580.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e1580.dir/SIZEOF_UNSIGNED_INT.c.o -o cmTC_e1580 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of signed long passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6d8c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6d8c0.dir/build.make CMakeFiles/cmTC_6d8c0.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d8c0.dir/SIZEOF_SIGNED_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6d8c0.dir/SIZEOF_SIGNED_LONG.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG.c
+Linking C executable cmTC_6d8c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d8c0.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6d8c0.dir/SIZEOF_SIGNED_LONG.c.o -o cmTC_6d8c0 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_483c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_483c0.dir/build.make CMakeFiles/cmTC_483c0.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_483c0.dir/SIZEOF_SIGNED_LONG_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_483c0.dir/SIZEOF_SIGNED_LONG_LONG.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG_LONG.c
+Linking C executable cmTC_483c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_483c0.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_483c0.dir/SIZEOF_SIGNED_LONG_LONG.c.o -o cmTC_483c0 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_66544/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66544.dir/build.make CMakeFiles/cmTC_66544.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66544.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_66544.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_66544
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66544.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_66544.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o -o cmTC_66544 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e5480/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e5480.dir/build.make CMakeFiles/cmTC_e5480.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5480.dir/SIZEOF_UNSIGNED_CHAR_P.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e5480.dir/SIZEOF_UNSIGNED_CHAR_P.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_CHAR_P.c
+Linking C executable cmTC_e5480
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5480.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e5480.dir/SIZEOF_UNSIGNED_CHAR_P.c.o -o cmTC_e5480 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a2866/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a2866.dir/build.make CMakeFiles/cmTC_a2866.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2866.dir/SIZEOF_PTRDIFF_T.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_a2866.dir/SIZEOF_PTRDIFF_T.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckTypeSize/SIZEOF_PTRDIFF_T.c
+Linking C executable cmTC_a2866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2866.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_a2866.dir/SIZEOF_PTRDIFF_T.c.o -o cmTC_a2866 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_131da/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_131da.dir/build.make CMakeFiles/cmTC_131da.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_131da.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_131da.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘floor’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘floor’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_131da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_131da.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_131da.dir/CheckFunctionExists.c.o -o cmTC_131da  /usr/lib/aarch64-linux-gnu/libm.so 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c0848/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c0848.dir/build.make CMakeFiles/cmTC_c0848.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0848.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_c0848.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_c0848
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0848.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c0848.dir/CheckFunctionExists.c.o -o cmTC_c0848  /usr/lib/aarch64-linux-gnu/libm.so 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_804ea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_804ea.dir/build.make CMakeFiles/cmTC_804ea.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_804ea.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_804ea.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘sqrt’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘sqrt’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_804ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_804ea.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_804ea.dir/CheckFunctionExists.c.o -o cmTC_804ea  /usr/lib/aarch64-linux-gnu/libm.so 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function isascii exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b46a9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b46a9.dir/build.make CMakeFiles/cmTC_b46a9.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b46a9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_b46a9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘isascii’; expected ‘int(int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_b46a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b46a9.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b46a9.dir/CheckFunctionExists.c.o -o cmTC_b46a9 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5d30d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d30d.dir/build.make CMakeFiles/cmTC_5d30d.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d30d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_5d30d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘memset’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_5d30d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d30d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_5d30d.dir/CheckFunctionExists.c.o -o cmTC_5d30d 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3b907/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b907.dir/build.make CMakeFiles/cmTC_3b907.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b907.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_3b907.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3b907
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b907.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_3b907.dir/CheckFunctionExists.c.o -o cmTC_3b907 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7569c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7569c.dir/build.make CMakeFiles/cmTC_7569c.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7569c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_7569c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7569c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7569c.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_7569c.dir/CheckFunctionExists.c.o -o cmTC_7569c 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b5ee3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b5ee3.dir/build.make CMakeFiles/cmTC_b5ee3.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5ee3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_b5ee3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘memmove’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘memmove’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_b5ee3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5ee3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b5ee3.dir/CheckFunctionExists.c.o -o cmTC_b5ee3 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d5cc7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5cc7.dir/build.make CMakeFiles/cmTC_d5cc7.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5cc7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_d5cc7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strcasecmp’; expected ‘int(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+Linking C executable cmTC_d5cc7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5cc7.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_d5cc7.dir/CheckFunctionExists.c.o -o cmTC_d5cc7 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5fe9d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5fe9d.dir/build.make CMakeFiles/cmTC_5fe9d.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fe9d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_5fe9d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strchr’; expected ‘char *(const char *, int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘strchr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_5fe9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fe9d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_5fe9d.dir/CheckFunctionExists.c.o -o cmTC_5fe9d 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4e0e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e0e2.dir/build.make CMakeFiles/cmTC_4e0e2.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e0e2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4e0e2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strrchr’; expected ‘char *(const char *, int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘strrchr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_4e0e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e0e2.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4e0e2.dir/CheckFunctionExists.c.o -o cmTC_4e0e2 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_20df1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_20df1.dir/build.make CMakeFiles/cmTC_20df1.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20df1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_20df1.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strstr’; expected ‘char *(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘strstr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_20df1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20df1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_20df1.dir/CheckFunctionExists.c.o -o cmTC_20df1 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6a63f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a63f.dir/build.make CMakeFiles/cmTC_6a63f.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a63f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6a63f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a63f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a63f.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6a63f.dir/CheckFunctionExists.c.o -o cmTC_6a63f 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f31f1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f31f1.dir/build.make CMakeFiles/cmTC_f31f1.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f31f1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_f31f1.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f31f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f31f1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f31f1.dir/CheckFunctionExists.c.o -o cmTC_f31f1 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_dd24c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dd24c.dir/build.make CMakeFiles/cmTC_dd24c.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd24c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_dd24c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dd24c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd24c.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_dd24c.dir/CheckFunctionExists.c.o -o cmTC_dd24c 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_20e64/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_20e64.dir/build.make CMakeFiles/cmTC_20e64.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20e64.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_20e64.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_20e64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20e64.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_20e64.dir/CheckFunctionExists.c.o -o cmTC_20e64 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_66841/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66841.dir/build.make CMakeFiles/cmTC_66841.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66841.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DHAVE_SNPRINTF -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_66841.dir/src.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_66841
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66841.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DHAVE_SNPRINTF -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_66841.dir/src.c.o -o cmTC_66841 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ec0fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec0fc.dir/build.make CMakeFiles/cmTC_ec0fc.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec0fc.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_ec0fc.dir/TestEndianess.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_ec0fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec0fc.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_ec0fc.dir/TestEndianess.c.o -o cmTC_ec0fc 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_65438/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_65438.dir/build.make CMakeFiles/cmTC_65438.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65438.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_65438.dir/TestEndianess.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_65438
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65438.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_65438.dir/TestEndianess.c.o -o cmTC_65438 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0aa32/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0aa32.dir/build.make CMakeFiles/cmTC_0aa32.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0aa32.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_0aa32.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0aa32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aa32.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_0aa32.dir/CheckIncludeFile.c.o -o cmTC_0aa32 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8e746/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8e746.dir/build.make CMakeFiles/cmTC_8e746.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e746.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_8e746.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8e746
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e746.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_8e746.dir/CheckIncludeFile.c.o -o cmTC_8e746 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4a609/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4a609.dir/build.make CMakeFiles/cmTC_4a609.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a609.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4a609.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4a609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a609.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4a609.dir/CheckIncludeFile.c.o -o cmTC_4a609 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f9cf9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9cf9.dir/build.make CMakeFiles/cmTC_f9cf9.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9cf9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_f9cf9.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f9cf9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9cf9.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f9cf9.dir/CheckIncludeFile.c.o -o cmTC_f9cf9 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_16c5f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16c5f.dir/build.make CMakeFiles/cmTC_16c5f.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16c5f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_16c5f.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_16c5f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16c5f.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_16c5f.dir/CheckIncludeFile.c.o -o cmTC_16c5f 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3b84b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b84b.dir/build.make CMakeFiles/cmTC_3b84b.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b84b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_3b84b.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3b84b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b84b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_3b84b.dir/CheckIncludeFile.c.o -o cmTC_3b84b 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6eeff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6eeff.dir/build.make CMakeFiles/cmTC_6eeff.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6eeff.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6eeff.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6eeff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eeff.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6eeff.dir/CheckIncludeFile.c.o -o cmTC_6eeff 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f92d0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f92d0.dir/build.make CMakeFiles/cmTC_f92d0.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f92d0.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_f92d0.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f92d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f92d0.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f92d0.dir/CheckIncludeFile.c.o -o cmTC_f92d0 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6792a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6792a.dir/build.make CMakeFiles/cmTC_6792a.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6792a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6792a.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6792a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6792a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6792a.dir/CheckIncludeFile.c.o -o cmTC_6792a 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_62410/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_62410.dir/build.make CMakeFiles/cmTC_62410.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62410.dir/OPJ_HAVE_MALLOC_H.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_62410.dir/OPJ_HAVE_MALLOC_H.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CheckIncludeFiles/OPJ_HAVE_MALLOC_H.c
+Linking C executable cmTC_62410
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62410.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_62410.dir/OPJ_HAVE_MALLOC_H.c.o -o cmTC_62410 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6d7f8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6d7f8.dir/build.make CMakeFiles/cmTC_6d7f8.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d7f8.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_POSIX_C_SOURCE=200112L  -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6d7f8.dir/CheckSymbolExists.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6d7f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d7f8.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6d7f8.dir/CheckSymbolExists.c.o -o cmTC_6d7f8 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+File /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e637a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e637a.dir/build.make CMakeFiles/cmTC_e637a.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e637a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e637a.dir/CheckSymbolExists.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e637a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e637a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e637a.dir/CheckSymbolExists.c.o -o cmTC_e637a 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+File /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8b760/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b760.dir/build.make CMakeFiles/cmTC_8b760.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b760.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-strict-prototypes -Wno-cast-function-type -Wno-shadow -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_8b760.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8b760
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b760.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-strict-prototypes -Wno-cast-function-type -Wno-shadow -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_8b760.dir/CheckIncludeFile.c.o -o cmTC_8b760 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_973e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_973e3.dir/build.make CMakeFiles/cmTC_973e3.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_973e3.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-strict-prototypes -Wno-cast-function-type -Wno-shadow -Wno-unused-function -DCMAKE_HAVE_LIBC_PTHREAD -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_973e3.dir/src.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_973e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_973e3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-strict-prototypes -Wno-cast-function-type -Wno-shadow -Wno-unused-function -DCMAKE_HAVE_LIBC_PTHREAD -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_973e3.dir/src.c.o -o cmTC_973e3 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file /usr/include/libpng/png.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_81892/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81892.dir/build.make CMakeFiles/cmTC_81892.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81892.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_81892.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_81892
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81892.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_81892.dir/CheckIncludeFile.c.o -o cmTC_81892 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_86de6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86de6.dir/build.make CMakeFiles/cmTC_86de6.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86de6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_86de6.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_86de6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86de6.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_86de6.dir/CheckIncludeFile.c.o -o cmTC_86de6 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlerror exists in the dl passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_04490/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04490.dir/build.make CMakeFiles/cmTC_04490.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04490.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_04490.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_04490
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04490.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_04490.dir/CheckFunctionExists.c.o -o cmTC_04490  -ldl 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_07f1d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07f1d.dir/build.make CMakeFiles/cmTC_07f1d.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07f1d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_07f1d.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_07f1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07f1d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_07f1d.dir/CheckIncludeFile.c.o -o cmTC_07f1d 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_85dbc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85dbc.dir/build.make CMakeFiles/cmTC_85dbc.dir/build
+gmake[1]: Entering directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85dbc.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_85dbc.dir/CheckIncludeFile.c.o -c /home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_85dbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85dbc.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_85dbc.dir/CheckIncludeFile.c.o -o cmTC_85dbc 
+gmake[1]: Leaving directory '/home/sasanka/ChargedUpCv/build/CMakeFiles/CMakeTmp'
+
+
+
